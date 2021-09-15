@@ -1,6 +1,6 @@
-> **#Manchester City Fan Club in Việt Nam 💙 💙💙 Manchester Is Blue**
+# **#Manchester City Fan Club in Việt Nam 💙 💙💙 Manchester Is Blue**
 
-# React JS + Redux + Firebase
+> React JS + Redux + Firebase
 The web page for the Soccer Team 'Manchester City' Fan Club in Vietnam --- A full stack web application built with React along with Firebase/Firestore
 
 Check out the deployed on Vercel: https://vangiau-mancity.vercel.app/
