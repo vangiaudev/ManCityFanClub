@@ -1,4 +1,4 @@
-# **#Manchester City Fan Club in Việt Nam 💙 💙💙 Manchester Is Blue**
+# **Manchester City Fan Club in Việt Nam 💙 💙💙 Manchester Is Blue**
 
 > React JS + Redux + Firebase
 The web page for the Soccer Team 'Manchester City' Fan Club in Vietnam --- A full stack web application built with React along with Firebase/Firestore
@@ -14,7 +14,7 @@ In the project directory, you install node_module:
 After, you can run:
 ### `npm start`
 or
-### `yarn start'
+### `yarn start`
 Runs the app in the development mode.<br>
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
