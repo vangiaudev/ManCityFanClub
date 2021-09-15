@@ -42,7 +42,7 @@ Your app is ready to be deployed!
 ![image](https://user-images.githubusercontent.com/75024999/133470022-cc7fb958-2607-4164-9d0c-e5c9d2c68377.png)
 ![image](https://user-images.githubusercontent.com/75024999/133471133-3cf76f66-f3c1-419e-9131-4fea5518b75b.png)
 
-- Builder & Download imgage lineup with .PNG
+- Builder & Download image lineup with .PNG
 ![image](https://user-images.githubusercontent.com/75024999/133471491-d3635dd8-1fb4-4b28-9df3-8bfc7fffd094.png)
 
 - Blog
