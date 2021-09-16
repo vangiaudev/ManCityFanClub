@@ -9,8 +9,8 @@ const PromotionAnimation = () => {
             <div className="left">
                 <Zoom>
                     <div>
-                        <span>Win a</span>
-                        <span>Jersey</span>
+                        <span>PUMA KIT</span>
+                        <span>2021/2022</span>
                     </div>
                 </Zoom>
             </div>

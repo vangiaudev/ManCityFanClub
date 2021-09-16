@@ -11,18 +11,14 @@ class HomeCards extends Component {
         cards:[
             {
                 bottom: 90,
-                left: 300,
-            },
-            {
-                bottom: 60,
                 left: 200,
             },
             {
-                bottom: 30,
+                bottom: 60,
                 left: 100
             },
             {
-                bottom: 0,
+                bottom: 30,
                 left: 0,
             }
         ]
@@ -66,6 +62,7 @@ class HomeCards extends Component {
             </Animate>
         ))
     )
+
 
     render() {
         return (

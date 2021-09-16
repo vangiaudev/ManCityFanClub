@@ -10,6 +10,7 @@ import { CityLogo } from '../ui/icons';
 class Header extends Component {
     render() {
         return (
+            
             <AppBar
                 position="fixed"
                 style={{
@@ -30,21 +31,51 @@ class Header extends Component {
                             />
                         </div>
                     </div>
+                    {/* <div class="grid">
+                        <div class="row">
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/sign_in">
+                                    <Button color="inherit">Login</Button>
+                                </Link>
+                            </div>
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/dashboard">
+                                    <Button color="inherit">Dashboard</Button>
+                                </Link>
+                            </div>
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/the_team">
+                                    <Button color="inherit">The team</Button>
+                                </Link>
+                            </div>
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/the_matches">
+                                    <Button color="inherit">Matches</Button>
+                                </Link>
+                            </div>
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/builder">
+                                    <Button color="inherit">Builder</Button>
+                                </Link>
+                            </div>
+                            <div class="col l-2 m-6 c-12">
+                                <Link to="/blog">
+                                    <Button color="inherit">Blog</Button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div> */}
                     <Link to="/sign_in">
                         <Button color="inherit">Login</Button>
-                        <div className="underline"></div>
                     </Link>
                     <Link to="/dashboard">
                         <Button color="inherit">Dashboard</Button>
-                        <div className="underline"></div>
                     </Link>
                     <Link to="/the_team">
                         <Button color="inherit">The team</Button>
-                        <div className="underline"></div>
                     </Link>
                     <Link to="/the_matches">
                         <Button color="inherit">Matches</Button>
-                        <div className="underline"></div>
                     </Link>
                     <Link to="/builder">
                         <Button color="inherit">Builder</Button>

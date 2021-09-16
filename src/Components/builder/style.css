@@ -18,11 +18,8 @@ h1 {
 }
 
 .App {
-  width: 900px;
   position: relative;
-  left: 50%;
-  margin-top: 390px;
-  transform: translate(-50%, -50%);
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -375,7 +372,7 @@ h1 {
   opacity: 0.6;
 }
 
-@media screen and (max-width: 910px) {
+/* @media screen and (max-width: 910px) {
 
   h1 {
     font-size: 35px;
@@ -385,7 +382,6 @@ h1 {
   .App {
     top: 61px;
     transform: translate(-50%, 0);
-    width: 100vw;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: start;
@@ -534,14 +530,11 @@ h1 {
   .PlayerCard p {
     font-size: 2.7vw;
   }
-}
+} */
 
 /* TABLET LAYOUT */
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  .App {
-    width: 580px;
-  }
+/* @media screen and (min-width: 600px) and (max-width: 900px) {
 
   .App .Settings {
     position: absolute;
@@ -575,4 +568,4 @@ h1 {
   .App .Pitch.Transform {
     transform: translate(0, 65px) !important;
   }
-}
+} */

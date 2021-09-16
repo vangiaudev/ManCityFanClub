@@ -25,14 +25,9 @@ class MeetPlayers extends Component {
                 >
                     <div className="container">
                         <div className="home_meetplayers_wrapper">
-                            <div className="home_card_wrapper">
-                                <HomeCards
-                                    show={this.state.show}
-                                />
-                            </div>
                             <div className="home_text_wrapper">
                                 <div>
-                                    <Tag bck="#0e1731" size="100px" color="#ffffff" add={{
+                                    <Tag bck="#0e1731" size="60px" color="#ffffff" add={{
                                         display: 'inline-block',
                                         marginBottom: '20px',
                                     }}>
@@ -40,7 +35,7 @@ class MeetPlayers extends Component {
                                 </Tag>
                                 </div>
                                 <div>
-                                    <Tag bck="#0e1731" size="100px" color="#ffffff" add={{
+                                    <Tag bck="#0e1731" size="60px" color="#ffffff" add={{
                                         display: 'inline-block',
                                         marginBottom: '20px',
                                     }}>
@@ -48,7 +43,7 @@ class MeetPlayers extends Component {
                                 </Tag>
                                 </div>
                                 <div>
-                                    <Tag bck="#0e1731" size="100px" color="#ffffff" add={{
+                                    <Tag bck="#0e1731" size="60px" color="#ffffff" add={{
                                         display: 'inline-block',
                                         marginBottom: '20px',
                                     }}  >
@@ -71,6 +66,11 @@ class MeetPlayers extends Component {
                                         Meet them here
                                 </Tag>
                                 </div>
+                            </div>
+                            <div className="home_card_wrapper">
+                                <HomeCards
+                                    show={this.state.show}
+                                />
                             </div>
                         </div>
                     </div>

@@ -123,7 +123,7 @@ class Enroll extends Component {
                                 :null
                             }
                             <div className="success_label">{this.state.formSuccess}</div>
-                            <button onClick={(event)=> this.submitForm(event)}>Enroll</button>
+                            <button onClick={(event)=> this.submitForm(event)}>Send</button>
                             <div className="enroll_discl">
                             Nguyễn Văn Giàu
                             </div>

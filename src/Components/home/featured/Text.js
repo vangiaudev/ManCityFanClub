@@ -16,7 +16,7 @@ class Text extends Component {
             enter={{
                 opacity:[1],
                 rotate:[360],
-                timing:{duration: 1000, ease:easePolyOut}
+                timing:{duration: 1600, ease:easePolyOut}
             }}
         >
             {({opacity,rotate})=>{
@@ -27,7 +27,7 @@ class Text extends Component {
                             transform: `translate(260px,170px) rotateY(${rotate}deg)`
                         }}
                    >
-                    7
+                    5
                    </div>
                ) 
             }}
@@ -47,7 +47,7 @@ class Text extends Component {
                 opacity:[1],
                 x:[273],
                 y:[450],
-                timing:{duration: 500, ease:easePolyOut}
+                timing:{duration: 1000, ease:easePolyOut}
             }}
         >
             {({opacity, x, y})=>{
@@ -58,7 +58,7 @@ class Text extends Component {
                             transform: `translate(${x}px,${y}px)`
                         }}
                 >
-                    League
+                    Champions
                 </div>
             ) 
             }}
@@ -88,7 +88,7 @@ class Text extends Component {
                         transform: `translate(${x}px,${y}px)`
                     }}
             >
-                Championships
+                Premier League 
             </div>
         ) 
         }}
@@ -103,7 +103,7 @@ class Text extends Component {
         }}
         enter={{
             opacity:[1],
-            timing:{delay:800,duration: 500, ease:easePolyOut}
+            timing:{delay:400,duration: 500, ease:easePolyOut}
         }}
     >
         {({opacity})=>{

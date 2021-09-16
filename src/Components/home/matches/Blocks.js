@@ -41,7 +41,7 @@ class Blocks extends Component {
         console.log(this.state)
         return (
             <div className="home_matches">
-                {this.showMatches(this.state.matches)}
+              {this.showMatches(this.state.matches)}
             </div>
         );
     }

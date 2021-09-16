@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './Hoc/Layout';
+import Layout from './Main/Layout';
 import { Switch, Route }  from 'react-router-dom';
 
 import PrivateRoute from './Components/authRoutes/privateRoutes';

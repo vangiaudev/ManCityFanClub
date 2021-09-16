@@ -16,6 +16,7 @@ a {
 
 .bck_blue {
     background: #0d1831;
+    /* width: 1335px; */
 }
 
 .bck_lblue {
@@ -26,13 +27,14 @@ a {
     background-size: cover !important;
 }
 .container {
-    width:1024px;
+    width: 100%;
     margin: 0 auto;
+    padding: 0px 50px;
 }
 
 input {
     background: #fafafa;
-    border: 1px solid #e9e9e9;
+    border: 2px solid #02013a;
     font-size: 17px;
     padding: 8px;
     border-radius: 3px;
@@ -45,11 +47,10 @@ input {
 select {
     font-size: 16px;
     height: 38px;
-    border: 1px solid #e9e9e9;
+    border: 2px solid #02013a;
     border-radius: 3px;
     width: 100%;
 }
-
 
 button {
     background: #0d1831;
@@ -141,7 +142,6 @@ button {
 /*=============================
             HEADER FOOTER
 ===============================*/
-
 .MuiButton-label:hover{
     transition: .3s;
     text-decoration: none;
@@ -170,18 +170,18 @@ footer .footer_discl {
 ===============================*/
 
 .featured_wrapper {
-    margin: 0px auto;
-    width: 1280px;
-    height: 800px;
+    height: 700px;
     overflow: hidden;
 }
 
 .featured_stripes {
-    position: relative
+    position: relative;
 }
 .featured_text {
     position: relative;
+    bottom: 40px;
     font-family: 'Righteous', cursive;
+    right: 80px;
 }
 
 .featured_stripes .stripe {
@@ -195,6 +195,7 @@ footer .footer_discl {
     color: #ffffff;
     transform: translate(260px,170px);
     position: absolute;
+    text-shadow: 3px 3px 3px red;
 }
 
 .featured_player {
@@ -400,7 +401,6 @@ footer .footer_discl {
             MATCHES BLOCK
 ===============================*/
 
-
 .home_meetplayers { 
     background: #ffffff;
 }
@@ -413,12 +413,12 @@ footer .footer_discl {
 .home_meetplayers .home_card_wrapper {
     position: relative;
     float: left;
-    width: 630px;
     min-height: 600px;
 }
 
 .home_meetplayers .home_text_wrapper {
-    float: right;
+    /* float: right; */
+    float: left;
     width: 390px;
 }
 
@@ -479,13 +479,13 @@ footer .footer_discl {
 
 .promotion_wrapper .promotion_animation {
     display: flex;
-    padding: 80px 0px 30px 0px;
+    padding-top: 80px;
 }
 
 .promotion_wrapper .promotion_animation .left { 
     text-transform: uppercase;
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 20px;
     font-family: 'Righteous', cursive;
     color:#d5ebfd;
     line-height: 135px;
@@ -519,7 +519,6 @@ footer .footer_discl {
     font-size: 12px;
     width: 271px;
     margin: 0 auto;
-    padding: 10px 0px;
 }
 
 .promotion_wrapper .enroll_input {
@@ -696,4 +695,14 @@ footer .footer_discl {
     color: #d5ebfe;
     text-align: center;
     margin-top: 200px;
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .header_logo{
+      width: 100px;
+    }
+    .featured_text{
+        right: 180px;
+    }
 }

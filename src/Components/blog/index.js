@@ -185,9 +185,6 @@ class index extends Component {
                   <div>
                     <img src="https://vangiaurecca.github.io/ManCityBlog/public/images/kunaguero.png" alt="" />
                   </div>
-                  <div style={{marginTop: '10px'}}>
-                    <img src="https://vangiaurecca.github.io/ManCityBlog/public/images/riyadmahrez02.jpg" alt="" />
-                  </div>
                 </div>
               </section>
 
